@@ -3,7 +3,7 @@ import Phaser from 'phaser'
 import HelloWorldScene from './HelloWorldScene'
 
 const config: Phaser.Types.Core.GameConfig = {
-	type: Phaser.AUTO,
+	type: Phaser.WEBGL,
 	parent: 'app',
 	width: 800,
 	height: 600,
